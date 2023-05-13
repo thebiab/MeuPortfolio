@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icons8-b-100.png" type="image/x-icon">
+    <title>Contato</title>
+</head>
+<body>
+   <h4  class="fonte">CONTATO</h4>
+    <div class="contact content-body">
+        <form method="POST" action="https://formspree.io/email@email.com">
+            <input type="hidden" name="_subject" value="Contact request from personal website" />
+            <input type="email" name="_replyto" placeholder="Seu email" required>
+            <textarea name="message" placeholder="Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+      </div>
+
+      <footer class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                   
+                </div>
+                <div class="col-md-10">
+                    <p> © 2023 Bianca Beatriz, Desenvolvimento de Sistemas SENAI SP.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Pathway+Extreme:ital,wght@1,100&family=Poppins&family=Schibsted+Grotesk:ital@0;1&display=swap');
+*{
+    margin: 40px;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background: linear-gradient(#343e53, #3b4255);
+    
+    color: rgb(255, 255, 255);
+}
+
+        .contact {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      
+      .contact input, .contact textarea {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        border-radius: 4px;
+        border: none;
+        margin-bottom: 10px;
+        background: #fff;
+        color: black;
+        -webkit-transition: .5s ease all;
+        transition: .5s ease all;
+      }
+      
+      .contact textarea {
+        height: 150px;
+        resize: none;
+      }
+      
+      .contact button {
+        display: block;
+        width: 100%;
+        background: navy;
+        border-radius: 4px;
+        padding: 5px 10px;
+        border: none;
+        color: #fff;
+        font-weight: 700;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        -webkit-transition: .5s ease all;
+        transition: .5s ease all;
+      }
+      
+      .contact button:hover{
+        color: lightslategray;
+      }
+      .white-text {
+        color: white;
+      }
+
+    .fonte{
+        font-size: 40px;
+        font-style: italic;
+        text-align: center;
+        
+    }
+
+    .main-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+
+.main-footer p {
+    line-height: 1.5;
+}
+    </style>
+    
+</body>
+</html>
